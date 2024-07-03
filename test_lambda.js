@@ -81,12 +81,16 @@ const generateReportAndUploadToS3 = async (data) => {
           <div class="chart-container">
             <canvas id="monthlySalesChart"></canvas>
           </div>
-          
+        </div>
+        
+        <div class="page">  
           <h2>2. Product Category Performance</h2>
           <div class="chart-container">
             <canvas id="categoryPieChart"></canvas>
           </div>
-
+        </div>
+        
+        <div class="page">
           <h2>3. Quarterly Sales Data</h2>
           <table>
             <tr>
@@ -127,12 +131,16 @@ const generateReportAndUploadToS3 = async (data) => {
           <div class="chart-container">
             <canvas id="regionBarChart"></canvas>
           </div>
-
+        </div>
+        
+        <div class="page">
           <h2>5. Customer Satisfaction Trends</h2>
           <div class="chart-container">
             <canvas id="satisfactionLineChart"></canvas>
           </div>
-
+        </div>
+        
+        <div class="page">
           <h2>6. Top 5 Products</h2>
           <table>
             <tr>
@@ -185,12 +193,16 @@ const generateReportAndUploadToS3 = async (data) => {
           <div class="chart-container">
             <canvas id="salesTeamChart"></canvas>
           </div>
-
+        </div>
+        
+        <div class="page">
           <h2>8. Customer Acquisition Cost vs Lifetime Value</h2>
           <div class="chart-container">
             <canvas id="cacLtvChart"></canvas>
           </div>
-
+        </div>
+        
+        <div class="page">
           <h2>9. Market Share Analysis</h2>
           <div class="chart-container">
             <canvas id="marketShareChart"></canvas>
