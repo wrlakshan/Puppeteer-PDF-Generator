@@ -10,8 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
     "chart.js": "^4.4.3",
     "node-fetch": "^2.7.0",
-    "puppeteer": "^22.12.1"
+    "puppeteer": "^22.12.1",
+    "puppeteer-core": "^22.12.1"
   }
 }
