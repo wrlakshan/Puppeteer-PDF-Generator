@@ -267,7 +267,7 @@ async function generatePDF() {
 
     console.log('Charts rendered successfully. Generating PDF...');
     await page.pdf({ 
-      path: 'advanced_sales_report.pdf', 
+      path: 'advanced_report.pdf', 
       format: 'A4',
       printBackground: true,
       margin: {
